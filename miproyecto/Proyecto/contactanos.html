@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" >
+	<head>
+		<meta charset="utf-8">
+		<title>Biangela-Contactanos</title>
+		<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="proyectoastrid.css">
+		<a href="proyectoastrid.html"><IMG ID="logo_inicial" SRC="Fotos/logo_creaciones.png"><a/>
+		
+	</head>
+		<body>	
+
+<audio src="audiofondo.mp3" autoplay loop>
+<p>Tu navegador no implementa el elemento audio.</p>
+</audio>
+			<a href="proyectoastrid.html"><h1>Contactanos</h1><a/>
+				<h2>Formulário de Contacto</h2>
+					<table>
+						<form method="get" target="_blank">
+							<fieldset>
+								<legend class="titulos_formulario">Nombre y Apellido: </legend>
+								<input type="text" name="nombre" placeholder="Ana Martinez"/><br/>
+							</fieldset>
+							<fieldset>
+								<legend>Número de Contacto: </legend>
+								<input type="number" name="numero" placeholder="056 90000 0000"/><br/>
+							</fieldset>
+							<fieldset>
+								<legend>Email: </legend>
+								<input type="email" name="email" placeholder="creacionesbiagela@hotmail.com"/><br/>
+							</fieldset>
+							<fieldset>
+								<legend class="titulos_formulario">Seleccionar Tipo: </legend>
+								<label for="diseño">Diseños: </label>
+									<select name="diseño"> <br/>
+										<option value="cintillo">Cintillos</option>
+										<option value="coletas">Coletas</option>
+										<option value="moños">Moños</option>
+										<option value="pinzas">Pinzas</option>
+									</select>
+								 <br/>
+							</fieldset>
+							<fieldset>
+								<legend class="titulos_formulario">Seleccione Los Colores de Combinación que desea: </legend>
+									<input type="Color" name="color1" />
+									<input type="Color" name="color2"/>
+									<input type="Color" name="color3"/><br/>
+							</fieldset>
+							<fieldset>
+								<legend class="titulos_formulario">Comentarios: </legend>
+									<input type="text" name="comentario" placeholder="Detalle de Solicitud"/><br/>
+							</fieldset>
+							<fieldset>
+								<legend class="titulos_formulario">Tipo de Despacho: </legend>
+									<input type="radio" name="Despacho" value="Despacho a Domicilio"/><span>Despacho a Domicilio</span><br/>
+									<input type="radio" name="Despacho" value="Retiro en Tienda"/><span>Retiro en Tienda</span><br/>
+							</fieldset>
+							<fieldset>
+								<legend class="titulos_formulario">Adjunta Algún diseño que desees</legend>
+								<input type="file" name="Adjuntar"/><br/>
+							</fieldset>
+								<input type="reset" name="restablecer" /value="Resetear"/>
+								<input type="submit" name="guardar" /value="Enviar Solicitud"/>
+						</form><br/>
+					</table>
+		</body>
+</html>

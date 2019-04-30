@@ -1,0 +1,195 @@
+/* Página Principal*/
+body{
+font-family: 'Quicksand', sans-serif;
+background-color: white;
+}
+
+#logo_inicial{
+	height: 200px;
+	width: 250px;
+}
+
+#baner_publicitario{
+	width: 1300px;
+	height: 150px;
+	padding: 10px;
+}
+
+h1{
+	color: rgb(203,103,98);
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h2{
+	color: #A6A68E;
+	color: rgb(166,166,142);
+	font-size:30px;
+	text-align: center;
+}
+
+.menu_opciones{
+	display: flex;
+	justify-content: space-around;
+	display: flex;
+
+
+}
+
+#titulo_menu{
+	color: rgb(235,163,148);
+	font-size: 20px;
+	list-style: circle;
+	position: relative;
+	top: 20px;
+  	right: 10px;
+
+}
+
+ul li:hover ul {display: block;} {
+	color: #1E9FA6;
+	list-style: circle;	
+	display: block;
+
+
+}
+
+#video_banner {
+	width: 200px;
+	height: 200px;
+	display: flex;
+	border-color: rgb(238,221,201)
+	background-color: rgb(238,221,201) ;
+	margin: auto;
+}
+
+#foto_cliente{
+	width: 50px;
+	height: 50px;
+	padding: 3px;
+}
+
+#caja1{
+	background-color: #F8D3C0;
+	float: right;
+	padding: 10px;
+	margin: 10px;
+
+}
+
+#contenido1{
+	color: rgb(93,76,52);
+}
+
+#caja2{
+	background-color: rgb(235,163,148);
+	float: right;
+	padding: 10px;
+	margin: 10px;
+}
+
+#contenido2{
+	color: rgb(115,114,90);
+}
+
+#caja3{
+	background-color: #BB8D76;
+	padding: 10px;
+	margin: 10px;
+}
+
+#contenido3{
+	color: rgb(115,114,90);
+}
+
+#conclusion{
+	color: #15383A;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+.padre_contenido{ 
+	max-width: 800px;
+	min-width: 300px;
+	margin: auto;
+	padding: 5px;
+	display: flex;
+	align-items: baseline;
+	justify-content: space-around;
+	flex-flow: row nowrap;
+
+}
+
+#Facebook{
+	text-align: center;
+}
+
+#Facebook >img{
+	width: 30px;
+	height: 30px;
+}
+
+#Instagram{
+	text-align: center;
+}
+
+#Instagram >img{
+	width: 30px;
+	height: 30px;
+}
+
+#Whatsapp{
+	text-align: center;
+}
+
+#Whatsapp >img{
+	width: 30px;
+	height: 30px;
+}
+
+
+/* Página Temporada*/
+
+#fotos_mas_vistos{
+	height: 300px;
+	width: 300px;
+}
+
+.titulos_stock_producto {
+	color: #15383A;
+	font-weight: bold;
+	font-size: 20px; 
+	list-style: none;
+}
+
+.productospadre{
+	display: flex;
+	margin: auto;
+}
+
+.Fondo{
+	background-color: #EFE3DC;
+	max-width: 200px;
+	min-width: 300px;
+	margin: 5px;
+	padding: 5px;
+	float: left;
+	align-items: baseline;
+	display: flex;
+}
+
+.producto1{
+ float: right;
+}
+
+/* Página Temporada*/
+
+.titulos_formulario {
+	color: #1E9FA6;
+	text-transform: uppercase
+}
+
+
+
+
+
